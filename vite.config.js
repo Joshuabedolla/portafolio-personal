@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 
-// https://github.com/Joshuabedolla/portafolio-personal.git
+// https://joshuabedolla.github.io/portafolio-personal/
 export default defineConfig({
   plugins: [react()],
 })
