@@ -10,7 +10,7 @@ export default function Home() {
       transition={{ duration: 0.8 }}
       className="container py-5"
     >
-    <Banner /> {/* 🔽 Mostrar Banner arriba */}
+      <Banner /> {/* 🔽 Mostrar Banner arriba */}
 
       <Skills /> {/* 🔽 Mostrar habilidades debajo */}
 
@@ -22,6 +22,16 @@ export default function Home() {
           style={{ maxHeight: '350px' }}
         />
       </div>
+
+      <footer style={{
+        backgroundColor: "#111",
+        color: "white",
+        padding: "1rem",
+        textAlign: "center",
+        marginTop: "2rem"
+      }}>
+        <p>&copy; 2025 Joshua Zaquiel Morales Bedolla. Todos los derechos reservados.</p>
+      </footer>
     </motion.div>
   );
 }
