@@ -1,0 +1,52 @@
+.banner {
+  min-height: 100vh;
+  background-image: url("../assets/img/fondo-moderno.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+/* Overlay opcional para oscurecer un poco la imagen */
+.banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.banner .contenido {
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes aparecerSuave {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.banner .contenido {
+  position: relative;
+  z-index: 1;
+  animation: aparecerSuave 1.2s ease-out both;
+}
+
+.banner .contenido {
+  color: #1a1a1a; /* Gris oscuro elegante */
+}
+
+
+
