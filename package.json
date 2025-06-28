@@ -1,6 +1,7 @@
 {
   "name": "joshua",
   "private": true,
+  "homepage": "https://joshuabedolla.github.io/portafolio-personal/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
