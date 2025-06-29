@@ -46,13 +46,12 @@ export default function SobreMi() {
       <h3 className="text-info fw-bold">💻 Aplicaciones Favoritas</h3>
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mb-5">
         {[
-          { src: "public/Imagenes/images.png", name: "Adobe Photoshop" },
-          { src: "/Imagenes/png-transparent-fl-studio-digital-audio-workstation-line-ableton-live-others-miscellaneous-natural-foods-food-thumbnail.png", name: "FL Studio" },
-          { src: "/Imagenes/Visual studio code.png", name: "Visual Studio Code" },
-          { src: "/Imagenes/Visual-Studio-Logo.png", name: "Visual Studio" },
-          { src: "/Imagenes/250-2508717_wondershare-filmora-wondershare-filmora-logo-png.png", name: "Filmora Wondershare" },
-          { src: "/Imagenes/adobe-animate_5968435.png", name: "Adobe Animate" },
-          { src: "/Imagenes/mysql-icon.png", name: "MySQL" },
+           { src: "/assets/Imagenes/images.png", name: "Adobe Photoshop" },
+          { src: "/assets/Imagenes/png-transparent-fl-studio-digital-audio-workstation-line-ableton-live-others-miscellaneous-natural-foods-food-thumbnail.png", name: "FL Studio" },
+          { src: "/assets/imagenes/Visual studio code.png", name: "Visual Studio Code" },
+          { src: "/assets/imagenes/visual-Studio-Logo.png", name: "Visual Studio" },
+          { src: "/assets/Imagenes/250-2508717_wondershare-filmora-wondershare-filmora-logo-png.png", name: "Filmora Wondershare" },
+          { src: "/assets/Imagenes/mysql-icon.png", name: "MySQL" },
         ].map((app, idx) => (
           <div className="col" key={idx}>
             <div className="card border-0 shadow-sm h-100 text-center">
