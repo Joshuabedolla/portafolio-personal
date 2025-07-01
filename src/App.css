@@ -49,18 +49,11 @@
 }
 
 body {
-  min-height: 100vh;
-  background: linear-gradient(to right, #6a11cb, #2575fc),
-              url("/portafolio-personal/assets/fondo-moderno.jpg");
+  background-image: url('/portafolio-personal/assets/fondo-moderno.jpg');
   background-size: cover;
-  background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat;
-  color: #1f2937; /* gris oscuro Tailwind */
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
 }
-
 
 /* Estilos para el Banner */
 .banner {

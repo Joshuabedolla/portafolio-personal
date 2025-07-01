@@ -46,27 +46,28 @@ export default function SobreMi() {
       <h3 className="text-info fw-bold">💻 Aplicaciones Favoritas</h3>
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mb-5">
         {[
-         { src: "images.png", name: "Adobe Photoshop" },
-          { src: "png-transparent-fl-studio-digital-audio-workstation-line-ableton-live-others-miscellaneous-natural-foods-food-thumbnail.png", name: "FL Studio" },
-          { src: "visual-studio-code.png", name: "Visual Studio Code" },
-          { src: "visual-Studio-Logo.png", name: "Visual Studio" },
-          { src: "250-2508717_wondershare-filmora-wondershare-filmora-logo-png.png", name: "Filmora Wondershare" },
-          { src: "mysql-icon.png", name: "MySQL" },
-        ].map((app, idx) => (
-          <div className="col" key={idx}>
-            <div className="card border-0 shadow-sm h-100 text-center">
-             <img
-                src={`${import.meta.env.BASE_URL}assets/imagenes/${app.src}`}
-                className="card-img-top p-3"
-                alt={app.name}
-                style={{ height: '150px', objectFit: 'contain' }}
-              />
-              <div className="card-body">
-                <h5 className="card-title">{app.name}</h5>
-              </div>
-            </div>
-          </div>
-        ))}
+  { src: "images.png", name: "Adobe Photoshop" },
+  { src: "png-transparent-fl-studio-digital-audio-workstation-line-ableton-live-others-miscellaneous-natural-foods-food-thumbnail.png", name: "FL Studio" },
+  { src: "visual-studio-code.png", name: "Visual Studio Code" },
+  { src: "visual-Studio-Logo.png", name: "Visual Studio" },
+  { src: "250-2508717_wondershare-filmora-wondershare-filmora-logo-png.png", name: "Filmora Wondershare" },
+  { src: "mysql-icon.png", name: "MySQL" },
+].map((app, idx) => (
+  <div className="col" key={idx}>
+    <div className="card border-0 shadow-sm h-100 text-center">
+      <img
+        src={`${import.meta.env.BASE_URL}assets/imagenes/${app.src}`}
+        className="card-img-top p-3"
+        alt={app.name}
+        style={{ height: '150px', objectFit: 'contain' }}
+      />
+      <div className="card-body">
+        <h5 className="card-title">{app.name}</h5>
+      </div>
+    </div>
+  </div>
+))}
+        
       </div>
       <h3 className="text-danger fw-bold">🎤 Artistas Favoritos</h3>
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mb-5">
