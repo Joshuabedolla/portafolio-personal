@@ -56,7 +56,7 @@ export default function SobreMi() {
           <div className="col" key={idx}>
             <div className="card border-0 shadow-sm h-100 text-center">
              <img
-                src={`${import.meta.env.BASE_URL}assets/Imagenes/${img}`}
+                src={`${import.meta.env.BASE_URL}assets/imagenes/${app.src}`}
                 className="card-img-top p-3"
                 alt={app.name}
                 style={{ height: '150px', objectFit: 'contain' }}
@@ -68,7 +68,6 @@ export default function SobreMi() {
           </div>
         ))}
       </div>
-
       <h3 className="text-danger fw-bold">🎤 Artistas Favoritos</h3>
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mb-5">
         {[
@@ -80,7 +79,7 @@ export default function SobreMi() {
             <div className="col" key={idx}>
               <div className="card border-0 shadow-sm h-100 text-center">
                 <img
-                  src={`${import.meta.env.BASE_URL}assets/Imagenes/${img}`}
+                  src={`${import.meta.env.BASE_URL}assets/imagenes/${img}`}
                   className="card-img-top"
                   alt={name}
                   style={{ height: '200px', objectFit: 'cover' }}
@@ -221,8 +220,7 @@ export default function SobreMi() {
           
         ].map((cancion, idx) => (
           <div className="col" key={idx}>
-            <div className="card border-0 shadow-sm h-100 text-center">
-              <img
+             <img
                 src={`${import.meta.env.BASE_URL}assets/portadas/${cancion.cover}`}
                 className="card-img-top"
                 alt={cancion.title}
@@ -238,11 +236,12 @@ export default function SobreMi() {
                 </audio>
               </div>
             </div>
-          </div>
-        ))}
-      </div>
+           ))}
+      </div> {/* grid de canciones */}
     </motion.div>
   );
 }
+       
+
 
 

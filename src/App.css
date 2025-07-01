@@ -51,7 +51,7 @@
 body {
   min-height: 100vh;
   background: linear-gradient(to right, #6a11cb, #2575fc);
-  background-image: url("src/assets/fondo-moderno.jpg");
+  background-image: url("/portafolio-personal/assets/fondo-moderno.jpg");
   color:#111827 (gris oscuro tailwind);
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
