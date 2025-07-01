@@ -51,7 +51,7 @@ export default function SobreMi() {
     name: "Adobe Photoshop"
   },
   {
-    src: `${import.meta.env.BASE_URL}assets/imagenes/png-transparent-fl-studio-digital-audio-workstation-line-ableton-live-others-miscellaneous-natural-foods-food-thumbnail.png`,
+    src: `${import.meta.env.BASE_URL}assets/imagenes/fl-studio-digital-audio.png`,
     name: "FL Studio"
   },
   {
@@ -59,11 +59,11 @@ export default function SobreMi() {
     name: "Visual Studio Code"
   },
   {
-    src: `${import.meta.env.BASE_URL}assets/imagenes/visual-Studio-Logo.png`,
+    src: `${import.meta.env.BASE_URL}assets/imagenes/visual-studio-logo.png`,
     name: "Visual Studio"
   },
   {
-    src: `${import.meta.env.BASE_URL}assets/imagenes/250-2508717_wondershare-filmora-wondershare-filmora-logo-png.png`,
+    src: `${import.meta.env.BASE_URL}assets/imagenes/wondershare-filmora.png`,
     name: "Filmora Wondershare"
   },
   {
