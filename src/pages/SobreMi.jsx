@@ -48,7 +48,7 @@ export default function SobreMi() {
         {[
          { src: "images.png", name: "Adobe Photoshop" },
           { src: "png-transparent-fl-studio-digital-audio-workstation-line-ableton-live-others-miscellaneous-natural-foods-food-thumbnail.png", name: "FL Studio" },
-          { src: "Visual-studio-code.png", name: "Visual Studio Code" },
+          { src: "visual-studio-code.png", name: "Visual Studio Code" },
           { src: "visual-Studio-Logo.png", name: "Visual Studio" },
           { src: "250-2508717_wondershare-filmora-wondershare-filmora-logo-png.png", name: "Filmora Wondershare" },
           { src: "mysql-icon.png", name: "MySQL" },
@@ -56,7 +56,7 @@ export default function SobreMi() {
           <div className="col" key={idx}>
             <div className="card border-0 shadow-sm h-100 text-center">
              <img
-                src={`${import.meta.env.BASE_URL}assets/Imagenes/${app.src}`}
+                src={`${import.meta.env.BASE_URL}assets/imagenes/${app.src}`}
                 className="card-img-top p-3"
                 alt={app.name}
                 style={{ height: '150px', objectFit: 'contain' }}
