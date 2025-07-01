@@ -47,27 +47,27 @@ export default function SobreMi() {
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mb-5">
   {[
   {
-    src: `${import.meta.env.BASE_URL}assets/imagenes/images.png`,
+    src: `${import.meta.env.BASE_URL}assets/Imagenes/images.png`,
     name: "Adobe Photoshop"
   },
   {
-    src: `${import.meta.env.BASE_URL}assets/imagenes/fl-studio-digital-audio.png`,
+    src: `${import.meta.env.BASE_URL}assets/Imagenes/fl-studio-digital-audio.png`,
     name: "FL Studio"
   },
   {
-    src: `${import.meta.env.BASE_URL}assets/imagenes/visual-studio-code.png`,
+    src: `${import.meta.env.BASE_URL}assets/Imagenes/visual-studio-code.png`,
     name: "Visual Studio Code"
   },
   {
-    src: `${import.meta.env.BASE_URL}assets/imagenes/visual-studio-logo.png`,
+    src: `${import.meta.env.BASE_URL}assets/Imagenes/visual-studio-logo.png`,
     name: "Visual Studio"
   },
   {
-    src: `${import.meta.env.BASE_URL}assets/imagenes/wondershare-filmora.png`,
+    src: `${import.meta.env.BASE_URL}assets/Imagenes/wondershare-filmora.png`,
     name: "Filmora Wondershare"
   },
   {
-    src: `${import.meta.env.BASE_URL}assets/imagenes/mysql-icon.png`,
+    src: `${import.meta.env.BASE_URL}assets/Imagenes/mysql-icon.png`,
     name: "MySQL"
   }
 ].map((app, idx) => (
