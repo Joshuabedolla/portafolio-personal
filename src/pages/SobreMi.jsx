@@ -212,7 +212,7 @@ export default function SobreMi() {
         ].map((cancion, idx) => (
           <div className="col" key={idx}>
             <div className="card border-0 shadow-sm h-100 text-center">
-              <img src={`/assets/portadas/${cancion.cover}`} className="card-img-top" alt={cancion.title} style={{ height: '200px', objectFit: 'cover' }} />
+              <img src={`src/assets/portadas/${cancion.cover}`} className="card-img-top" alt={cancion.title} style={{ height: '200px', objectFit: 'cover' }} />
               <div className="card-body">
                 <h5 className="card-title">{cancion.title}</h5>
                 <audio controls className="w-100">
