@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { audio } from 'framer-motion/client';
+
 
 export default function SobreMi() {
   return (
@@ -46,12 +46,12 @@ export default function SobreMi() {
       <h3 className="text-info fw-bold">💻 Aplicaciones Favoritas</h3>
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mb-5">
         {[
-         { src: "src/assets/Imagenes/images.png", name: "Adobe Photoshop" },
-          { src: "src/assets/Imagenes/png-transparent-fl-studio-digital-audio-workstation-line-ableton-live-others-miscellaneous-natural-foods-food-thumbnail.png", name: "FL Studio" },
-          { src: "src/assets/imagenes/Visual studio code.png", name: "Visual Studio Code" },
-          { src: "src/assets/imagenes/visual-Studio-Logo.png", name: "Visual Studio" },
-          { src: "src/assets/Imagenes/250-2508717_wondershare-filmora-wondershare-filmora-logo-png.png", name: "Filmora Wondershare" },
-          { src: "src/assets/Imagenes/mysql-icon.png", name: "MySQL" },
+         { src: "/assets/Imagenes/images.png", name: "Adobe Photoshop" },
+          { src: "/assets/Imagenes/png-transparent-fl-studio-digital-audio-workstation-line-ableton-live-others-miscellaneous-natural-foods-food-thumbnail.png", name: "FL Studio" },
+          { src: "/assets/imagenes/Visual studio code.png", name: "Visual Studio Code" },
+          { src: "/assets/imagenes/visual-Studio-Logo.png", name: "Visual Studio" },
+          { src: "/assets/Imagenes/250-2508717_wondershare-filmora-wondershare-filmora-logo-png.png", name: "Filmora Wondershare" },
+          { src: "/assets/Imagenes/mysql-icon.png", name: "MySQL" },
         ].map((app, idx) => (
           <div className="col" key={idx}>
             <div className="card border-0 shadow-sm h-100 text-center">
@@ -74,7 +74,7 @@ export default function SobreMi() {
           return (
             <div className="col" key={idx}>
               <div className="card border-0 shadow-sm h-100 text-center">
-                <img src={`src/assets/Imagenes/${img}`} className="card-img-top" alt={name} style={{ height: '200px', objectFit: 'cover' }} />
+                <img src={`/assets/Imagenes/${img}`} className="card-img-top" alt={name} style={{ height: '200px', objectFit: 'cover' }} />
                 <div className="card-body">
                   <h5 className="card-title">{name}</h5>
                 </div>
@@ -212,11 +212,11 @@ export default function SobreMi() {
         ].map((cancion, idx) => (
           <div className="col" key={idx}>
             <div className="card border-0 shadow-sm h-100 text-center">
-              <img src={`src/assets/portadas/${cancion.cover}`} className="card-img-top" alt={cancion.title} style={{ height: '200px', objectFit: 'cover' }} />
+              <img src={`/assets/portadas/${cancion.cover}`} className="card-img-top" alt={cancion.title} style={{ height: '200px', objectFit: 'cover' }} />
               <div className="card-body">
                 <h5 className="card-title">{cancion.title}</h5>
                 <audio controls className="w-100">
-                  <source src={`src/assets/audio/${cancion.audio}`} type="audio/mp3" />
+                  <source src={`/assets/audio/${cancion.audio}`} type="audio/mp3" />
                 </audio>
               </div>
             </div>
