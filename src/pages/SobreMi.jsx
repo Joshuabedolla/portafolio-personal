@@ -79,7 +79,7 @@ export default function SobreMi() {
             <div className="col" key={idx}>
               <div className="card border-0 shadow-sm h-100 text-center">
                 <img
-                  src={`${import.meta.env.BASE_URL}assets/imagenes/${img}`}
+                  src={`${import.meta.env.BASE_URL}assets/Imagenes/${img}`}
                   className="card-img-top"
                   alt={name}
                   style={{ height: '200px', objectFit: 'cover' }}
